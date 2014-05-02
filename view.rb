@@ -8,8 +8,8 @@ class View
     puts "Give me a noun (person, place, thing): "
   end
 
-  def past_noun
-    puts "Give me a noun in the past tense: "
+  def self.plural_noun
+    puts "Give me a plural noun: "
   end
 
   def self.verb
@@ -43,20 +43,20 @@ end
 
 
 #DRIVER CODE________________________________
-View.greeting
-View.noun
-View.verb
-View.adjective
-View.adverb
-View.print_madlib
-View.end_game_message
+# View.greeting
+# View.noun
+# View.verb
+# View.adjective
+# View.adverb
+# View.print_madlib
+# View.end_game_message
 
-story = "#{location} - in the future - is #{noun2}-ridden, and run by a #{adjective} #{noun1}.
-The #{noun1} has #{verb_past_tense} a #{adjective} #{noun2}-fighting robot, which unfortunately
-#{verb present tense} a rather #{adjective} #{noun}. The #{noun1} sees a way to get back in favor
-with the public when a cop called #{name1} is #{verb_past_tense} by a #{adjective} #{plural_noun}.
-#{name1} body is #{verb_past_tense} within a #{adjective} shell and named Robo#{name2}. Though
-Robo#{name2} is very #{adjective} against #{noun}, soon they have to face the very #{noun} who
-#{verb_past_tense} them."
+# story = "#{location} - in the future - is #{noun2}-ridden, and run by a #{adjective} #{noun1}.
+# The #{noun1} has #{verb_past_tense} a #{adjective} #{noun2}-fighting robot, which unfortunately
+# #{verb present tense} a rather #{adjective} #{noun}. The #{noun1} sees a way to get back in favor
+# with the public when a cop called #{name1} is #{verb_past_tense} by a #{adjective} #{plural_noun}.
+# #{name1} body is #{verb_past_tense} within a #{adjective} shell and named Robo#{name2}. Though
+# Robo#{name2} is very #{adjective} against #{noun}, soon they have to face the very #{noun} who
+# #{verb_past_tense} them."
 
 

@@ -16,9 +16,9 @@
 
 # CODE
 
-require "model"
+require_relative "model"
 
-require "view"
+require_relative "view"
 
 class Controller
 
@@ -43,7 +43,7 @@ class Controller
     array << noun1
     array << noun1
 
-    View.verb_past_tense
+    View.verb
     verb_past_tense1= gets.chomp
     array << verb_past_tense1
 
@@ -86,9 +86,9 @@ class Controller
     array << plural_noun
     array<< name1
 
-    View.verb
-    verb_past_tense3=gets.chomp
-    array << verb_past_tense3
+    # View.verb
+    # verb_past_tense3=gets.chomp
+    # array << verb_past_tense3
 
     View.adjective
     adjective4=gets.chomp
@@ -115,9 +115,9 @@ class Controller
     verb_past_tense4=gets.chomp
     array << verb_past_tense4
 
-    madlib = Madlib.new(array)
+    # madlib = MadLib.new(array)
 
-    p madlib.replacement
+    p MadLib.new(array)
 
   end
 end
