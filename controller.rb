@@ -55,7 +55,7 @@ class Controller
     noun2=gets.chomp
     array << noun2
 
-    View.verb_present_tense
+    View.verb
     verb_present_tense1= gets.chomp
     array << verb_present_tense1
 
@@ -69,11 +69,11 @@ class Controller
 
     array << noun1
 
-    View.name1
+    View.name
     name1= gets.chomp
     array << name1
 
-    View.verb_past_tense
+    View.verb
     verb_past_tense2=gets.chomp
     array <<verb_past_tense2
 
@@ -86,7 +86,7 @@ class Controller
     array << plural_noun
     array<< name1
 
-    View.verb_past_tense
+    View.verb
     verb_past_tense3=gets.chomp
     array << verb_past_tense3
 
@@ -94,7 +94,7 @@ class Controller
     adjective4=gets.chomp
     array<< adjective4
 
-    View.name2
+    View.name
     name2= gets.chomp
     array << name2
     array << name2
@@ -111,9 +111,11 @@ class Controller
     noun5=gets.chomp
     array << noun5
 
-    View.verb_past_tense
+    View.verb
     verb_past_tense4=gets.chomp
     array << verb_past_tense4
+
+    Madlib.new(array)
 
   end
 end
@@ -123,7 +125,3 @@ end
 View.greeting # sends a call to the view class to initialize greeting method
 new_game = Controller.new # starts a new game
 new_game.add_lib # adds one lib at a time, so assume this part runs 3x
-
-madlib
-
-story = "#{location} - in the future - is #{noun2}-ridden, and run by a #{adjective} #{noun1}. The #{noun1} has #{verb_past_tense} a #{adjective} #{noun2}-fighting robot, which unfortunately #{verb present tense} a rather #{adjective} #{noun}. The #{noun1} sees a way to get back in favor with the public when a cop called #{name1} is #{verb_past_tense} by a #{adjective} #{plural_noun}. #{name1} body is #{verb_past_tense} within a #{adjective} shell and named Robo#{name2}. Though Robo#{name2} is very #{adjective} against #{noun}, soon they have to face the very #{noun} who #{verb_past_tense} them."
