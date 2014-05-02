@@ -115,7 +115,9 @@ class Controller
     verb_past_tense4=gets.chomp
     array << verb_past_tense4
 
-    Madlib.new(array)
+    madlib = Madlib.new(array)
+
+    p madlib.replacement
 
   end
 end
