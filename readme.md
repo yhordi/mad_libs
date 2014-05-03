@@ -1,12 +1,10 @@
-# Mad Libs (as told by WiKi)
-
+### Mad Libs (as told by Wikipedia)
 Mad Libs is a phrasal template word game invented in the United States
 where one player prompts another for a list of words to substitute for
 blanks in a story, before reading the – often comical or nonsensical story aloud. The game is frequently played as a party game or as a pastime.
 
-#Contributors:
-
-###Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
+###Contributors:
+####Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
 
 Our program is a command terminal version of the mad lib game. The user
 will initially be welcomed to the game and then prompted for multiple
