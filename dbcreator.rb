@@ -10,9 +10,9 @@ db_connection.execute("DROP TABLE IF EXISTS stories;")
 
 db_connection.execute(<<-SQL
     CREATE TABLE stories (
-    id INTEGER DEFAULT NULL PRIMARY KEY AUTOINCREMENT,
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
     content BLOB DEFAULT NULL,
-    time_created TIMESTAMP DEFAULT NULL
+    time_created TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     );
     SQL
     )

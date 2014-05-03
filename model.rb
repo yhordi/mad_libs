@@ -2,7 +2,10 @@
 # require 'sqlite'
 # db_connection = SQLite3::Database.new"##{DATABASE_NAME}.db"
 # I18n.enforce_available_locals = false
+require_relative "dbcreator"
+require 'sqlite3'
 
+$db= SQLite3::Database.open "mad_libs_database.db"
 
 class MadLib
 
@@ -14,6 +17,14 @@ class MadLib
 
   def to_s
     puts @story
+  end
+
+  def add_to_db
+     $db.execute(<<-SQL
+    insert into stories(content)
+    values ("#{@story}");
+    SQL
+    )
   end
 
 #   def self.replacement(mad_lib_set)
