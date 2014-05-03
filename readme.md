@@ -20,4 +20,4 @@ Clone the entire repository. Run the script "dbcreator.rb" to create the databas
 
 ###Contributors
 
-####Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
+Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
