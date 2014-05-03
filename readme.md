@@ -13,6 +13,6 @@ word type has been given by the user, they are strategically placed in
 a pre-written mad lib and returned as a customized story.
 
 
-###Contributors:
+###Contributors
 
 ####Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
