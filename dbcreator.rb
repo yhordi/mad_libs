@@ -1,5 +1,5 @@
-#this file should only be run ONCE when you
-# want to create a database or drop an exisiting one.
+#this file should only be run ONCE to establish the
+#databse
 
 DATABASE_NAME='mad_libs_database'
 require 'sqlite3'

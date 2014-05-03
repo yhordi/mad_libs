@@ -15,7 +15,7 @@ a pre-written mad lib and returned as a customized story.
 
 ###How it works:
 
-Clone the entire repository. Run the script "dbcreator.rb" to create the database. From there, you can run the "controller.rb" file from the terminal and begin the MadLib.
+Clone the entire repository. Run the script "dbcreator.rb" to create the database. From there, you can run the "controller.rb" file from the terminal and begin the MadLib. Only run the "dbcreator.rb" afterwards if you want to replace the current database with a new one.
 
 
 ###Contributors

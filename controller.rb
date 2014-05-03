@@ -67,10 +67,6 @@ class Controller
     array << plural_noun
     array<< name1
 
-    # View.verb
-    # verb_past_tense3=gets.chomp
-    # array << verb_past_tense3
-
     View.adjective
     adjective4=gets.chomp
     array<< adjective4
@@ -96,15 +92,9 @@ class Controller
     verb_past_tense4=gets.chomp
     array << verb_past_tense4
 
-    # madlib = MadLib.new(array)
-
-
     new_lib= MadLib.new(array)
     new_lib.add_to_db
     p new_lib
-
-
-
   end
 end
 
