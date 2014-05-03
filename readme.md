@@ -13,6 +13,11 @@ word type has been given by the user, they are strategically placed in
 a pre-written mad lib and returned as a customized story.
 
 
+###How it works:
+
+Clone the entire repository. Run the script "dbcreator.rb" to create the database. From there, you can run the "controller.rb" file from the terminal and begin the MadLib.
+
+
 ###Contributors
 
 ####Ziad Abdo, Tiffany Kaiser, Jordan Kamin, Renee Carignan, Joshua Rosaeen, Tommy Carpenito
