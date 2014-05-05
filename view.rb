@@ -1,7 +1,15 @@
 class View
 
   def self.greeting
-    puts "Welcome to Mad Libs 1.0v!"
+   puts "Welcome to Mad Libs 1.0v!"
+                                                                                              
+  puts "    _/      _/                  _/        _/      _/        _/  _/        _/                  "
+  puts "   _/_/  _/_/    _/_/_/    _/_/_/    _/_/_/      _/            _/_/_/    _/_/_/      _/_/_/   "
+  puts "  _/  _/  _/  _/    _/  _/    _/  _/    _/      _/        _/  _/    _/  _/    _/  _/_/        "
+  puts " _/      _/  _/    _/  _/    _/  _/    _/      _/        _/  _/    _/  _/    _/      _/_/     "
+  puts "_/      _/    _/_/_/    _/_/_/    _/_/_/      _/_/_/_/  _/  _/_/_/    _/_/_/    _/_/_/        "
+                                                                                              
+                                                                                              
   end
 
   def self.noun
